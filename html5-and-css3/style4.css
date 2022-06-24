@@ -1,0 +1,90 @@
+body {
+    background: #f7f7f7;
+    font-family: Verdana;
+    /*width: 900px;*/
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo {
+    border: 1px solid #505050;
+    border-radius: 50%;
+}
+
+#title, .subtitle, .post_title {
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: #505050
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: #FFF;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    width: 100%; 
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
+}
+
+/* 
+
+  Dimensão e Alinhamento
+
+  Width = largura
+  Height = Altura
+
+  Max-width = largura máxima que o elemento pode ter
+  Max-height = altura máxima que o elemento pode ter
+
+  Margin = colocar espaçamento entre elementos. serve para alinhar um elemento automático
+
+  Text align = alinhar textos. podemos alinhar a esquerda com o left, direita com o right e ao centro com o center. 
+
+  OBS: pode justificar o texto com o justify também!!
+
+
+  EXTRA:
+
+  colocar o elemento em 100% faz ele respeitar quem estiver fora. ou seja. se ajustar a ele!!!
+
+  BONUS:
+
+  temos o auto para margin -> cria um espaçamento de um lado e do outro!!!
+
+*/
+
