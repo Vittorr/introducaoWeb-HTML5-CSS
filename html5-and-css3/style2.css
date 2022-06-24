@@ -1,0 +1,124 @@
+body {
+    background: #f7f7f7;
+    font-family: Verdana;
+}
+
+.photo {
+    border: 1px solid #505050;
+    border-radius: 50%;
+}
+
+#title, .subtitle, .post_title {
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: #505050
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: #FFF;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.post_image {
+    margin-bottom: 15px;
+}
+
+
+/* 
+  ~~~~~~~~~~~~~~~~~~
+    font-family
+  ~~~~~~~~~~~~~~~~~~
+
+ #title {
+    font-family: Verdana; -> adicionando uma fonte
+ }
+
+ .post_title {
+    font-family: Verdana, Arial; -> adicionando duas pois caso a 1 nao funcione a 2 entra como backup
+ }
+
+ Tamanho da Fonte:
+
+ #title {
+    font-size: 30px;
+ }
+
+ .post_title {
+    font-size: 18px;
+ }
+
+ Aparência do Texto:
+
+ #title {
+    font-style: normal;
+ }
+
+ .subtitle {
+    font-style: italic;
+ }
+
+ Peso do Texto:
+
+ #title {
+    font-weight: normal;
+ }
+
+ .subtitle {
+    font-weight: bold; -> negrito
+ }
+
+ Transformação de Texto:
+
+ #title {
+    text-transform: uppercase;
+ }
+
+ .subtitle {
+    text-transform: lowercase;
+ }
+
+ .post_title {
+    text-transform: capitalize; -> coloca todas as primeiras letras em maiuscula
+ }
+
+ Decoração de Texto:
+
+ #title {
+    text-decoration: underline; -> coloca uma linha abaixo da palavra
+ }
+
+ .subtitle {
+    text-decoration: overline; -> coloca uma linha acima da palavra
+ }
+
+ .post_title {
+    text-decoration: line-through; -> coloca uma linha cortando a palavra
+ }
+
+
+*/
+
